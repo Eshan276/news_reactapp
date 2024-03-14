@@ -1,6 +1,7 @@
 # news_reactapp
 
 This is a News Webapp , backend was developed by django and NEwsapi has been used. It is also deployed serverlessly in AWS EC2. Now the frontend part is created using React and staticlly hosted using S3
+
 Deployed Project- [Newsapp](http://newsappeshan.s3-website.ap-south-1.amazonaws.com/#latest-news)
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
