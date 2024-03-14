@@ -4,9 +4,9 @@ This is a News Webapp , backend was developed by django and NEwsapi has been use
 Deployed Project- [Newsapp](http://newsappeshan.s3-website.ap-south-1.amazonaws.com/#latest-news)
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
-   ```bash
-   git clone https://github.com/Eshan276/news_reactapp.git
-   ```
+```bash
+git clone https://github.com/Eshan276/news_reactapp.git
+```
 
 2. **Backend Setup**:
    -run this commands
