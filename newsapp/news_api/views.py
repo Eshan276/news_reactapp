@@ -7,7 +7,7 @@ def home(request):
     api_key = '25d2fd9ddb614f5eaa45ffd81c4c4e6a'
     if (category):
         if(category=='latest news'):
-            api_url = f'https://newsapi.org/v2/top-headlines?country=u{country}&apiKey=25d2fd9ddb614f5eaa45ffd81c4c4e6a'
+            api_url = f'https://newsapi.org/v2/top-headlines?country={country}&apiKey=25d2fd9ddb614f5eaa45ffd81c4c4e6a'
         else:
             api_url = f'https://newsapi.org/v2/top-headlines?country={country}&category={category}&apiKey=25d2fd9ddb614f5eaa45ffd81c4c4e6a'
     else:
