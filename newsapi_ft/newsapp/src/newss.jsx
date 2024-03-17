@@ -6,7 +6,7 @@ const NewsComponent = ({ category }) => {
 
   useEffect(() => {
     const fetchNews = async () => {
-      let url = "http://127.0.0.1:8000/home/";
+      let url = "http://43.204.116.137:8000/home/";
       if (category) {
         url += `?category=${category}`;
       }
