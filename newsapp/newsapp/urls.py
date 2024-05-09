@@ -4,5 +4,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', include('news_api.urls'))
+    path('home/', include('news_api.urls')),
+    path('sum/',include('sumtest.urls'))
 ]

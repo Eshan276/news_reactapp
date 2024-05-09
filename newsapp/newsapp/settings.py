@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'news_api.apps.NewsApiConfig'
+    'news_api.apps.NewsApiConfig',
+    'sumtest'
 ]
 
 MIDDLEWARE = [
